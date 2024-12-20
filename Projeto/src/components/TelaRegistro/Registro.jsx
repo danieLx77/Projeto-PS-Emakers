@@ -3,6 +3,8 @@ import { useState } from 'react'
 import EastIcon from '@mui/icons-material/East';
 import "./Registro.css"
 
+//teste commit
+
 const Registro = () => {
 
 
