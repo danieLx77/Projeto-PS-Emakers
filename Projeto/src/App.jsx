@@ -1,6 +1,6 @@
 
 import './App.css'
-import Registro from './components/TelaRegistro/registro'
+import Registro from './routes/TelaRegistro/Registro'
 
 function App() {
   
