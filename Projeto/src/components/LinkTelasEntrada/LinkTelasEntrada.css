@@ -1,0 +1,15 @@
+.links {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .links a {
+    font-size: 16px;
+    color: #97a4a2;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  .links a:hover {
+    color: #4b626c;
+  }
