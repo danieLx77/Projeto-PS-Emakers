@@ -1,0 +1,19 @@
+.botaoSeta {
+    text-align: right;
+  }
+  
+  .button {
+    border: none;
+    background: none;
+    cursor: pointer;
+  }
+  
+  .button > svg {
+    color: #4b626c;
+    font-size: 40px;
+    transition: color 0.3s ease;
+  }
+  
+  .button:hover > svg {
+    color: #0056b3;
+  }
