@@ -14,4 +14,5 @@ input {
   input::placeholder {
     font-size: 17px;
     color: #97a4a2;
+    font-weight: 300;
   }
