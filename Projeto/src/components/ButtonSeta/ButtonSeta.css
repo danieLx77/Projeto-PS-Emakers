@@ -1,6 +1,7 @@
 .botaoSeta {
-    text-align: right;
-  }
+  color: #4B626C;
+  padding-left: 64%;
+}
   
   .button {
     border: none;
