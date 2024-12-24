@@ -1,0 +1,51 @@
+.containerRecConta {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+  }
+  
+  .blocoRecConta {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: flex-start;
+    width: 25vw;
+    height: 100vh;
+    padding-top: 50px;
+  }
+  
+  .tituloRecConta {
+    font-size: 54px;
+    font-weight: 400;
+    color: #4b626c;
+    margin-bottom: 50px;
+    line-height: 78.02px;
+  }
+
+  .conjuntoInputsRecConta {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin : 0 auto; 
+ }
+
+ .linksTelaRecConta{
+    position: absolute;
+    bottom: 25px;
+    left: 25px;
+    font-size: 16px;
+    color: #97A4A2;
+    font-weight: 500;
+    line-height: 29.26px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .linksTelaRecConta a {
+    text-decoration: none;
+    color: inherit;
+    display: inline;
+    white-space: nowrap; 
+  }
+
