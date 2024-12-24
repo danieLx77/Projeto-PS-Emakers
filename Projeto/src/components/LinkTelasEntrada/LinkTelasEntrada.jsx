@@ -1,5 +1,5 @@
 import React from "react";
-import "./Links.css";
+import "./LinkTelasEntrada.css";
 
 const LinkTelasEntrada = ({ links }) => {
   return (
