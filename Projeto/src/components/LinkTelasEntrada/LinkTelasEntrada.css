@@ -1,14 +1,18 @@
 .links {
-    margin-top: 20px;
-    text-align: center;
-  }
+  position: absolute;
+  bottom: 40px;
+  left: 50px;
+  font-size: 16px;
+  color: #97A4A2;
+  font-weight: 500;
+  line-height: 29.26px;
   
-  .links a {
-    font-size: 16px;
-    color: #97a4a2;
-    text-decoration: none;
-    margin: 0 10px;
-  }
+}
+
+.links a {
+  text-decoration: none;
+  color: inherit;
+}
   
   .links a:hover {
     color: #4b626c;
