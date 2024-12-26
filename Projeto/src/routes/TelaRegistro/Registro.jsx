@@ -57,7 +57,7 @@ const Registro = () => {
             <ButtonSeta />
             <LinkTelasEntrada
               links={[
-                { href: "/Login", text: "Fazer Login" },
+                { href: "/", text: "Fazer Login" },
               ]}
             />
           </div>

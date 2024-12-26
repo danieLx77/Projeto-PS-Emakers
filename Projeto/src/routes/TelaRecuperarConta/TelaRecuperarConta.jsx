@@ -31,7 +31,7 @@ const TelaRecuperarConta = () => {
             <LinkTelasEntrada
               links={[
                 { href: "/Registrar", text: "Criar conta" },
-                { href: "/Login", text: "Fazer Login" },
+                { href: "/", text: "Fazer Login" },
               ]}
             />
             </div>
