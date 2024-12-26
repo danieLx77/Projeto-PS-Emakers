@@ -37,8 +37,8 @@ const TelaLogin = () => {
             <div className="link">
             <LinkTelasEntrada
               links={[
-                { href: "/registro", text: "Criar conta" },
-                { href: "/esqueci-senha", text: "Esqueceu a Senha?" },
+                { href: "/Registrar", text: "Criar conta" },
+                { href: "/RecuperarConta", text: "Esqueceu a Senha?" },
               ]}
             />
             </div>
