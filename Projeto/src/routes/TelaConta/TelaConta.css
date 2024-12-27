@@ -122,13 +122,13 @@
   .blocoInfoUsuario{
     width: 55%; 
     height: 100%; 
-    margin-top: 80px; /* Adiciona o espaço necessário para a navbar */
+    margin-top: 80px; 
     padding: 20px;
     display: flex;
     flex-direction: column;
-    align-items: center; /* Centraliza os itens */
-    justify-content: center; /* Garante que o conteúdo fique no centro verticalmente */
-    gap: 20px; /* Espaçamento entre os itens */
+    align-items: center; 
+    justify-content: center; 
+    gap: 20px; 
     box-sizing: border-box;
 
   }
