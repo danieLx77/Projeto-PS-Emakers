@@ -4,14 +4,20 @@ import ButtonSeta from "../../components/ButtonSeta/ButtonSeta";
 import LinkTelasEntrada from "../../components/LinkTelasEntrada/LinkTelasEntrada";
 import ImagemTelasInic from "../../components/ImagemTelasInic/ImagemTelasInic";
 import "./Registro.css";
-import imagemHeroina from "../../assets/imagem2.png"
+import imagemHeroina from "../../assets/imagem2.png";
+import { useNavigate } from "react-router-dom";
 
 const Registro = () => {
+  const navigate = useNavigate();
   const [nome, setNome] = useState("");
   const [email, setEmail] = useState("");
   const [cpf, setCpf] = useState("");
   const [senha, setSenha] = useState("");
   const [confirmaSenha, setConfirmaSenha] = useState("");
+
+  const redirecionar = (rota) => {
+    navigate(rota);
+  }
 
   const handleSubmit = (event) => {
     event.preventDefault();
@@ -54,7 +60,7 @@ const Registro = () => {
               value={confirmaSenha}
               onChange={(e) => setConfirmaSenha(e.target.value)}
             />
-            <ButtonSeta />
+            <ButtonSeta onClick={() => redirecionar("/")} />
             <LinkTelasEntrada
               links={[
                 { href: "/", text: "Fazer Login" },
