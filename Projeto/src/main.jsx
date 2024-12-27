@@ -7,6 +7,7 @@ import TelaLogin from "./routes/TelaLogin/TelaLogin"
 import TelaRegistro from "./routes/TelaRegistro/Registro"
 import TelaRecuperarConta from "./routes/TelaRecuperarConta/TelaRecuperarConta"
 import TelaErro from "./routes/TelaErro/TelaErro"
+import TelaConta from "./routes/TelaConta/TelaConta"
 const router = createBrowserRouter([
   {
     path: "/",
@@ -24,6 +25,10 @@ const router = createBrowserRouter([
       {
         path: "/RecuperarConta",
         element: <TelaRecuperarConta />,
+      },
+      {
+        path: "/TelaConta",
+        element: <TelaConta />,
       },
     ],
   },
